@@ -39,6 +39,7 @@ XMLs with the same id from two separate mods \(or the same mod\) will have their
             <Name value="MySubModule"/>
             <!-- Path to the DLL File, if your Mod is called MyModule then it should be   -->
             <DLLName value="ExampleMod.dll"/>
+            <!-- You need one of these for each class in your Mod   -->
             <SubModuleClassType value="ExampleMod.MySubModule"/>
             <Tags>
                 <Tag key="DedicatedServerType" value="none" />
